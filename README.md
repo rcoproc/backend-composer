@@ -1,5 +1,7 @@
-Composer
+RailsApps Composer
 ================
+
+Created at: 14/02/2017
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
 provided by the [RailsApps Project](http://railsapps.github.io/).
@@ -31,10 +33,15 @@ This application requires:
 - gem cocoon
 - gem devise
 - gem boostrap-saas
+- gem haml
+- gem puma
+- gem pundit
+- gem pry-meta
+- gem haml-rails
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
-Getting Started
+Sample Screenshoots
 ---------------
 ![alt tag](http://i.imgur.com/NS40exz.png)
 
