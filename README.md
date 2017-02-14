@@ -43,6 +43,9 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 
 Sample Screenshoots
 ---------------
+Theme Simple SideBar
+![alt tag](http://i.imgur.com/AlTQufY.png)
+
 ![alt tag](http://i.imgur.com/NS40exz.png)
 
 ![alt tag](http://i.imgur.com/Uy6sw77.png)
