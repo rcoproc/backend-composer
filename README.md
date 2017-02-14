@@ -36,6 +36,8 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 
 Getting Started
 ---------------
+![alt tag](http://i.imgur.com/NS40exz.png)
+
 
 Documentation and Support
 -------------------------
