@@ -1,6 +1,8 @@
 RailsApps Composer
 ================
 
+**rails_apps_composer new Composer -r core** 
+
 Created at: 14/02/2017
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
