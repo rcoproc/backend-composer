@@ -38,6 +38,7 @@ Getting Started
 ---------------
 ![alt tag](http://i.imgur.com/NS40exz.png)
 
+![alt tag](http://i.imgur.com/Uy6sw77.png)
 
 Documentation and Support
 -------------------------
@@ -53,6 +54,8 @@ Contributing
 
 Credits
 -------
+Ricardo César de Oliveira
 
 License
 -------
+MIT
