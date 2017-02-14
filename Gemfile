@@ -13,25 +13,24 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 group :development, :test do
-  gem 'byebug', platform: :mri
+  #gem 'byebug', platform: :mri
 end
 group :development do
-  gem 'web-console', '>= 3.3.0'
+  #gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  #gem 'spring'
+  #gem 'spring-watcher-listen', '~> 2.0.0'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'better_errors'
-gem 'binding_of_callers'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'haml-rails'
 gem 'high_voltage'
 gem 'pg'
-gem 'pry-meta'
 gem 'pundit'
 gem 'simple_form'
+gem 'cocoon'
+gem 'kaminari', :git => "git://github.com/amatsuda/kaminari.git", :branch => 'master'
 group :development do
   gem 'capistrano', '~> 3.0.1'
   gem 'capistrano-bundler'
@@ -40,8 +39,11 @@ group :development do
   gem 'capistrano-rvm', '~> 0.1.1'
   gem 'foreman'
   gem 'html2haml'
+  gem 'better_errors'
+  gem 'binding_of_callers'
   gem 'rails_layout'
-  gem 'spring-commands-rspec'
+  gem 'pry-meta'
+  #gem 'spring-commands-rspec'
 end
 group :development, :test do
   gem 'factory_girl_rails'

@@ -1,0 +1,12 @@
+.neste-fields
+
+  .form-inline
+    %br
+    = f.input :name
+
+    = f.input :acronym, :input_html => { maxlength: 2, size: 2 }
+
+    = link_to_remove_association f, class: 'remove-tag btn btn-defaul btn-xs'do
+      .glyphicon.glyphicon-remove
+
+    %br

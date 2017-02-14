@@ -1,0 +1,23 @@
+
+%h3 Listagem de Países
+
+= link_to 'Novo País', new_country_path, class: 'btn btn-primary'
+
+%table.table.table-striped
+  %thead
+    %tr
+      %th
+      %th País
+      %th
+      %th
+
+  %tbody
+    - @countries.each do |country|
+      %tr
+        %td= link_to 'Alterar', edit_country_path(country), class: 'btn btn-info btn-sm'
+        %td= country.name
+        %td= link_to 'Visualizar', country, class: 'btn btn-default btn-sm'
+        %td= link_to 'Excluir', country, :method => :delete, :data => { :confirm => 'Tem certeza?' }, class: 'btn btn-danger btn-sm'
+
+%br
+

@@ -1,0 +1,13 @@
+= simple_form_for(@city) do |f|
+  = f.error_notification
+
+  .form-inputs
+    .row
+      .col-md-6
+        = f.input :name
+    .row
+      .col-md-6
+        = f.association :state
+
+  .form-actions
+    = f.button :submit, 'Gravar', class: 'btn-primary'

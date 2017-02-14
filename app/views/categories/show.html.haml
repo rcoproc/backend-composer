@@ -1,0 +1,12 @@
+#page-content-wrapper
+  %p#notice= notice
+
+  %p
+    %b Name:
+    = @category.name
+
+  %p
+
+  = link_to 'Alterar', edit_category_path(@category), class: 'btn btn-primary'
+
+  = link_to 'Voltar', categories_path, class: 'btn btn-default'

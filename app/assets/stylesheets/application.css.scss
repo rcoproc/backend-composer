@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+
+.navbar-brand {
+  float: left;
+  padding: 1px 1px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 50px;
+}
+
+
+.control-label {
+    margin-bottom: 0;
+    margin-right: 10px;
+    vertical-align: middle;
+}

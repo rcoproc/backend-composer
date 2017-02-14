@@ -6,6 +6,9 @@ provided by the [RailsApps Project](http://railsapps.github.io/).
 
 Rails Composer is supported by developers who purchase our RailsApps tutorials.
 
+
+Rails Developer Ricardo Cesar de Oliveira
+
 Problems? Issues?
 -----------
 
@@ -23,6 +26,11 @@ This application requires:
 
 - Ruby 2.3.0
 - Rails 5.0.1
+
+- gem kaminari
+- gem cocoon
+- gem devise
+- gem boostrap-saas
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 

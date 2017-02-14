@@ -1,0 +1,10 @@
+= simple_form_for(@category) do |f|
+  = f.error_notification
+
+  .form-inputs
+    .row
+      .col-md-6
+        = f.input :name
+
+  .form-actions
+    = f.button :submit, 'Gravar', class: 'btn btn-primary'

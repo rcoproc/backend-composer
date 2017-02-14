@@ -1,0 +1,28 @@
+%h3 Listagem de Cidades
+
+= link_to 'Nova Cidade', new_city_path, class: 'btn btn-primary'
+
+%table.table.table-striped
+  %thead
+    %tr
+      %th
+      %th Nome
+      %th Estado
+      %th
+      %th
+      %th
+
+  %tbody
+    - @cities.each do |city|
+      %tr
+        %td= link_to 'Alterar', edit_city_path(city), class: 'btn btn-info btn-sm'
+        %td= city.name
+        %td= city.state_name
+        %td= city.state_acronym
+        %td= link_to 'Visualizar', city, class: 'btn btn-default btn-sm'
+        %td= link_to 'Excluir', city, :method => :delete, :data => { :confirm => 'Tem certeza?'}, class: 'btn btn-danger btn-sm'
+
+= paginate @cities
+
+%br
+

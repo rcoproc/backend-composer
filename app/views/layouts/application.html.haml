@@ -11,5 +11,28 @@
     %header
       = render 'layouts/navigation'
     %main{:role => "main"}
-      = render 'layouts/messages'
-      = yield
+      #wrapper.toggled
+        = render 'layouts/sidebar'
+        #page-content-wrapper
+          .container-fluid
+            .row
+              .col-md-6
+                %a{id: 'menu-toggle', class: 'btn btn-default btn-sm', :href => '#menu-toggle' , 'data-toggle' => 'offcanvas', 'role' => 'button' }
+                  %span.icon-bar Expandir / Encolher
+                  %span.icon-bar
+                  %span.icon-bar
+                  %span.icon-bar
+              .col-md-6
+            .row
+              .col-lg-12
+                = render 'layouts/messages'
+            .row
+              .col-lg-12
+                = yield
+<!-- Menu Toggle Script -->
+:javascript
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+  });
+

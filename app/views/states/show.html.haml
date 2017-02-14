@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @state.name
+%p
+  %b Acronym:
+  = @state.acronym
+%p
+  %b Country:
+  = @state.country_name
+
+= link_to 'Alterar', edit_state_path(@state)
+\|
+= link_to 'Voltar', states_path
