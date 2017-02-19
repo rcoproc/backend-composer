@@ -11,6 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
+gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.5'
 group :development, :test do
   #gem 'byebug', platform: :mri
@@ -31,6 +32,9 @@ gem 'pundit'
 gem 'simple_form'
 gem 'cocoon'
 gem 'kaminari', :git => "git://github.com/amatsuda/kaminari.git", :branch => 'master'
+gem 'rails-assets-DataTables', source: 'https://rails-assets.org'
+gem 'rails-assets-jquery-ui', source: 'https://rails-assets.org'
+gem 'rails-assets-jquery-ui-bootstrap', source: 'https://rails-assets.org'
 group :development do
   gem 'capistrano', '~> 3.0.1'
   gem 'capistrano-bundler'

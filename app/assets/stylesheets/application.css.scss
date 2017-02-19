@@ -10,6 +10,9 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require jquery-ui
+ *= require DataTables
+ *= require jquery-ui-bootstrap
  *= require_tree .
  *= require_self
  */
@@ -24,8 +27,42 @@
 }
 
 
+// Margem direita maior para labels do SimpleForm
 .control-label {
     margin-bottom: 0;
     margin-right: 10px;
     vertical-align: middle;
 }
+
+// Classes default do Datatable
+.dataTables_length {
+    float: left;
+    padding: 5px;
+}
+
+.dataTables_filter {
+    float: right;
+    text-align: right;
+    padding: 5px;
+}
+
+.dataTables_wrapper .dataTables_info {
+    clear: both;
+    float: left;
+    padding: 0.25em;
+}
+
+.dataTables_paginate {
+    float: right;
+    text-align: right;
+    padding: 0.25em;
+}
+
+table.dataTable thead .sorting_asc {
+ 	background-image: url("");
+ }
+ 
+table.dataTable thead .sorting_desc {
+ 	background-image: url("");
+ }
+ 

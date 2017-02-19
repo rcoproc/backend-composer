@@ -4,12 +4,16 @@ class StatesController < ApplicationController
   # GET /states
   # GET /states.json
   def index
-    @states = State.order(:name).page params[:page]
+    @states = State.includes(:country).order(:name)
   end
 
   # GET /states/1
   # GET /states/1.json
   def show
+    respond_to do |format|
+      format.html { render :show }
+      format.js { render :show }
+    end
   end
 
   # GET /states/new
