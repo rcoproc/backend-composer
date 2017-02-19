@@ -1,6 +1,8 @@
 RailsApps Composer
 ================
 
+**rails_apps_composer new Composer -r core** 
+
 Created at: 14/02/2017
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
@@ -43,6 +45,9 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 
 Sample Screenshoots
 ---------------
+Theme Simple SideBar
+![alt tag](http://i.imgur.com/AlTQufY.png)
+
 ![alt tag](http://i.imgur.com/NS40exz.png)
 
 ![alt tag](http://i.imgur.com/Uy6sw77.png)
