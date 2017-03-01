@@ -1,0 +1,18 @@
+= define_grid(@cities, hide_submit_button: false, hide_reset_button: false, show_filters: :allways, allow_showing_all_records: false, upper_pagination_panel: true, html: { class: 'table table-striped table-hover table-condensed' }) do |g|
+
+  - g.column in_csv: false, :html => {:style => 'text-align: center' } do |city|
+    - link_to 'Alterar', edit_city_path(city), class: 'btn btn-info btn-sm'
+
+  - g.column name: 'Cidade', attribute: 'name', detach_with_id: :city_filter
+
+  - g.column name: 'Estado', attribute: 'name', assoc: :state, detach_with_id: :state_name_filter
+
+  - g.column name: 'UF', attribute: 'acronym', assoc: :state, custom_filter: :auto
+
+  - g.column in_csv: false, :html => {:style => 'text-align: center' } do |city|
+    - link_to 'Visualizar', city, class: 'btn btn-default btn-sm'
+
+  - g.column in_csv: false, :html => {:style => 'text-align: center' } do |city|
+    - link_to 'Excluir', city, :method => :delete, :data => { :confirm => 'Tem certeza?'}, class: 'btn btn-danger btn-sm'
+
+

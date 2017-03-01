@@ -13,6 +13,9 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
+//= require jquery-ui
+//= require wice_grid
+//  require jquery.ui.datepicker
 //= require DataTables
 //= require turbolinks
 //= require bootstrap-sprockets

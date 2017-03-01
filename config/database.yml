@@ -46,7 +46,7 @@ test:
   encoding: unicode
   database: Composer_test
   pool:     5
-  username: macbook
+  username: <%= ENV['DATABASE_USER'] %>
   password: 
   template: template0
 
@@ -56,6 +56,6 @@ production:
   encoding: unicode
   database: Composer_production
   pool:     5
-  username: macbook
+  username: <%= ENV['DATABASE_USER'] %>
   password: 
   template: template0

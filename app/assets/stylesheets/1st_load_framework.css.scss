@@ -23,6 +23,9 @@ $font-size-base:          16px !default;
 // import the CSS framework
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "wice_grid";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 // make all images responsive by default
 img {

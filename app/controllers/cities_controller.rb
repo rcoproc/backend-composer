@@ -4,7 +4,14 @@ class CitiesController < ApplicationController
   # GET /cities
   # GET /cities.json
   def index
-    @cities = City.order(:name).page params[:page]
+    @cities = initialize_grid(City.joins(:state), 
+                              order: 'cities.name',
+                              enable_export_to_csv: true,
+                              csv_field_separator: ';', 
+                              csv_file_name: 'cidades',
+                              per_page: 10)
+
+    export_grid_if_requested('grid' =>  'grid')
   end
 
   # GET /cities/1
