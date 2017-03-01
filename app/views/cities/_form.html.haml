@@ -7,7 +7,7 @@
         = f.input :name
     .row
       .col-md-6
-        = f.association :state
+        = f.association :state, collection: State.order('acronym ASC')
 
   .form-actions
     = f.button :submit, 'Gravar', class: 'btn-primary'

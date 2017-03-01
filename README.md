@@ -5,11 +5,7 @@ RailsApps Composer
 
 Created at: 14/02/2017
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
-
-Rails Composer is supported by developers who purchase our RailsApps tutorials.
-
+- [x] 28-02-2016, City CRUD change to gem wice_grid;
 
 Rails Developer Ricardo Cesar de Oliveira
 
@@ -40,6 +36,7 @@ This application requires:
 - gem pundit
 - gem pry-meta
 - gem haml-rails
+- gem wice_grid
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 

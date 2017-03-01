@@ -5,5 +5,6 @@ class City < ApplicationRecord
 
   # Validations
   validates_length_of :name, maximum: 30
-  validates_presence_of :name, :acronym
+  validates_presence_of :name, :state_id
+  validates_uniqueness_of :name, scope: [:name, :state_id]
 end

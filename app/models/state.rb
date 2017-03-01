@@ -8,4 +8,5 @@ class State < ApplicationRecord
   validates_presence_of :name, :acronym
   validates_uniqueness_of :name
   validates_length_of :name, maximum: 30
+  validates_length_of :acronym, maximum: 2
 end
