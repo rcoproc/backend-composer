@@ -11,3 +11,15 @@
     .collapse.navbar-collapse
       %ul.nav.navbar-nav
         = render 'layouts/navigation_links'
+      %ul.nav.navbar-nav.navbar-right
+        - if user_signed_in?
+          %li.active
+            %p.navbar-text 
+              = current_user.email
+              %span.sr-only
+                (current)
+          %li
+            %p.navbar-text
+              = link_to 'Sair', destroy_user_session_path, method: :delete, :class => 'navbar-link'
+        - else
+          = link_to 'Login', new_user_registration_path, :class => 'navbar-link'
