@@ -5,7 +5,8 @@ RailsApps Composer
 
 Created at: 14/02/2017
 
-- [x] 28-02-2016, City CRUD change to gem wice_grid;
+- [x] 02-03-2017, Initial Devise Login Page/Layout; 
+- [x] 28-02-2017, City CRUD change to gem wice_grid;
 
 Rails Developer Ricardo Cesar de Oliveira
 
