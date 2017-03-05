@@ -46,6 +46,9 @@ Sample Screenshoots
 Theme Simple SideBar
 ![alt tag](http://i.imgur.com/AlTQufY.png)
 
+Responsive Size and Project Manager Project
+![alt tag](http://i.imgur.com/cCB5TJ5.png)
+
 ![alt tag](http://i.imgur.com/NS40exz.png)
 
 ![alt tag](http://i.imgur.com/Uy6sw77.png)
