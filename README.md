@@ -5,6 +5,9 @@ RailsApps Composer
 
 Created at: 14/02/2017
 
+Sample: www.composer.rknet.top , user: admin@gmail.com, senha: admin123
+
+- [x] 09-03-2017, Deploy to Herkou www.composer.rknet.top;
 - [x] 02-03-2017, Initial Devise Login Page/Layout; 
 - [x] 28-02-2017, City CRUD change to gem wice_grid;
 
