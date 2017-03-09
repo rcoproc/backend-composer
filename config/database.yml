@@ -52,10 +52,7 @@ test:
 
 production:
   adapter:  postgresql
-  host:     localhost
   encoding: unicode
-  database: Composer_production
   pool:     5
-  username: <%= ENV['DATABASE_USER'] %>
-  password: 
-  template: template0
+  url: <%= ENV['DATABASE_URL'] %>
+  port: 5432
